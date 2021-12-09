@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class FishTest {
 
-    Fish clownfish;
+    /*Fish clownfish;
     Fish tang;
     Fish kong;
 
@@ -68,5 +68,5 @@ class FishTest {
         kong.feed();
 
         assertEquals(12, kong.getWeight());
-    }
+    }*/
 }
