@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class AquariumTest {
 
-   /* Aquarium aquarium;
+    Aquarium aquarium;
     Fish clownfish;
     Fish tang;
     Fish kong;
@@ -98,5 +98,5 @@ class AquariumTest {
     @Test
     void testGetSmallestFish() {
         assertEquals(clownfish, aquarium.getSmallestFish());
-    }*/
+    }
 }

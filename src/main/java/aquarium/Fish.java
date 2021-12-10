@@ -1,4 +1,36 @@
 package aquarium;
 
-public class Fish {
+public abstract class Fish {
+    private String name;
+    private int weight;
+    private String color;
+
+    public Fish(String name, int weight, String color) {
+        this.name = name;
+        this.weight = weight;
+        this.color = color;
+    }
+
+    public String getStatus(){
+        return name + ", weight: " + weight + ", color: "
+                + color + ", short-term memory loss: " ;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public String getColor() {
+        return color;
+    }
+    public abstract boolean hasMemoryLoss();
+
+    public void feed(){
+        weight++;
+    }
+
 }
